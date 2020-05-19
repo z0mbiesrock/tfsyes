@@ -1,0 +1,76 @@
+name: "[#5eb85e]The Funniest Shit You'll Ever See[]"
+description: "[scarlet]TFSYES[]"
+speed: 0.0125
+drag: 0.1
+maxSpeed: 69
+boostSpeed: 2.0
+buildPower: 0
+mineSpeed: 0
+drillPower: 0
+mass: 4
+itemCapacity: 0
+flying: false
+drawCell: false
+cellTrnsY: 2
+health: 42069
+engineSize: 0
+weaponOffsetX: 0
+weaponOffsetY: 0
+//turnCursor: false
+weapon: {
+  //name: chill-blaster
+  length: 0
+  width: 0
+  shots: 69
+  reload: 1
+  recoil: 0
+  ignoreRotation: true
+  shootSound: corexplode
+  alternate: false
+  velocityRnd: 4.2
+  inaccuracy: 360
+  shake: 42069
+  spacing: 0
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 5
+    drag: 0.02
+    damage: 20
+	splashDamage: 69
+	splashDamageRadius: 69
+    bulletWidth: 6
+    bulletHeight: 9
+	lifetime: 55
+	killShooter: true
+	frontColor: 00ff00
+	backColor: 00be00
+	trailEffect: nuclearsmoke
+    shootEffect: nuclearsmoke
+    despawnEffect: flakExplosionBig
+	hitEffect: hitLancer
+	pierce: false
+	inaccuracy: 16
+	homingPower: 42069
+	homingRange: 100
+	bulletSprite: missile
+	fragBullets: 42
+	fragVelocityMin: 1
+	fragVelocityMax: 9
+	fragBullet: {
+      type: BasicBulletType
+      speed: 1
+	  lifetime: 10
+      damage: 1
+      bulletWidth: 1
+      bulletHeight: 4
+	  despawnEffect: none
+	  collidesTeam: true
+	  hitEffect: none
+	  frontColor: 00ff00
+	  backColor: 5eb85e
+	  //trailColor: 88ffff
+	  pierce: true
+	  bulletSprite: bullet
+    }
+  }
+}

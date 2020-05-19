@@ -1,0 +1,9 @@
+name: "[#5eb85e]The Funniest Thing You'll Ever See[]"
+description: "[scarlet]TFSYES[]"
+type: MechPad
+mech: tfsyes
+size: 2
+category: upgrade
+requirements: [
+  plastanium/69
+]
